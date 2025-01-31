@@ -11,10 +11,6 @@ import {
 import pfLogo from '/PF-HorizontalLogo-Color.svg?url'
 import Toolbar from './Toolbar.astro'
 import { PageToggle } from './PageToggle'
-
-// interface Props {
-//   toolbarContent?: any;
-// } = Astro.props
 ---
 
 <PFMasthead>
@@ -29,7 +25,7 @@ import { PageToggle } from './PageToggle'
     </MastheadBrand>
   </MastheadMain>
   <MastheadContent>
-    <Toolbar client:idle>
+    <Toolbar client:load>
     </Toolbar>
   </MastheadContent>
 </PFMasthead>
