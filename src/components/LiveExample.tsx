@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { convertToReactComponent } from '@patternfly/ast-helpers'
+import { convertToReactComponent } from '../ast/stringify';
 import * as reactCoreModule from '@patternfly/react-core'
 import { ExampleToolbar } from './ExampleToolbar'
 interface LiveExampleProps {
